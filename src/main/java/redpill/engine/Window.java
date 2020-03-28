@@ -4,14 +4,13 @@ import static org.lwjgl.glfw.GLFW.*;
 import org.lwjgl.glfw.GLFWErrorCallback;
 import org.lwjgl.glfw.GLFWVidMode;
 import org.lwjgl.opengl.GL;
-import static org.lwjgl.opengl.GL11.GL_FALSE;
-import static org.lwjgl.opengl.GL11.GL_TRUE;
-import static org.lwjgl.opengl.GL11.glClearColor;
+
+import static org.lwjgl.opengl.GL11.*;
 import static org.lwjgl.system.MemoryUtil.NULL;
 
 public class Window {
 
-    private final String title;
+    private String title;
 
     private int width,height;
 
@@ -86,6 +85,7 @@ public class Window {
         GL.createCapabilities();
 
         glClearColor(0.0f,0.0f,0.0f,0.0f);
+        glEnable(GL_DEPTH_TEST);
     }
 
     public void setClearColor(float r, float g, float b, float alpha) {
@@ -102,6 +102,10 @@ public class Window {
 
     public String getTitle() {
         return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
     }
 
     public int getWidth() {
@@ -122,6 +126,10 @@ public class Window {
 
     public boolean isvSync() {
         return vSync;
+    }
+
+    public long getWindowHandle() {
+        return windowHandle;
     }
 
     public void setvSync(boolean vSync) {
