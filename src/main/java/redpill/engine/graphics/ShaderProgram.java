@@ -1,6 +1,7 @@
 package redpill.engine.graphics;
 
 import org.joml.Matrix4f;
+import org.joml.Vector3f;
 import org.lwjgl.system.MemoryStack;
 
 import java.nio.FloatBuffer;
@@ -37,6 +38,10 @@ public class ShaderProgram {
             glUniformMatrix4fv(uniforms.get(uniformName), false,
                     value.get(stack.mallocFloat(16)));
         }
+    }
+
+    public void setUniform(String uniformName, Vector3f value) {
+        glUniform3f(uniforms.get(uniformName), value.x, value.y, value.z);
     }
 
     public void setUniform(String uniformName, int value) {

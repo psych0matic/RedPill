@@ -2,31 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9dd0142-91d8-4e3b-a4ba-e412095b0b35" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/RedPill.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Textures/eddy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Textures/grass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Textures/stone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/redpill/engine/graphics/Texture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/redpill/engine/Camera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/redpill/engine/MouseInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/redpill/engine/graphics/OBJLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/models/bunny.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/models/cube.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/redpill/engine/GameEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/redpill/engine/GameEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/redpill/engine/IGameLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/redpill/engine/IGameLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/redpill/engine/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/redpill/engine/Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/redpill/engine/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/redpill/engine/Window.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/redpill/engine/graphics/Mesh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/redpill/engine/graphics/Mesh.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/redpill/engine/graphics/ShaderProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/redpill/engine/graphics/ShaderProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/redpill/engine/graphics/Transformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/redpill/engine/graphics/Transformation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/redpill/game/DummyGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/redpill/game/DummyGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/redpill/game/Renderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/redpill/game/Renderer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fragment.fs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fragment.fs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/vertex.vs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/vertex.vs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/RedPill.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fragment.fs" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fragment.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fragment.fs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/shaders/fragment.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/vertex.vs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/shaders/vertex.vs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fragment.fs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/redpill/engine/GameEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/redpill/engine/GameEngine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/redpill/engine/IGameLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/redpill/engine/IGameLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/redpill/engine/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/redpill/engine/Utils.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/redpill/engine/Window.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/redpill/engine/Window.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/redpill/engine/graphics/Mesh.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/redpill/engine/graphics/Mesh.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/redpill/engine/graphics/ShaderProgram.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/redpill/engine/graphics/ShaderProgram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/redpill/engine/graphics/Transformation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/redpill/engine/graphics/Transformation.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/redpill/game/DummyGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/redpill/game/DummyGame.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/redpill/game/Renderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/redpill/game/Renderer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/vertex.vs" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/vertex.vs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vertex.vs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,10 +84,11 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="experimental" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sherwin\IdeaProjects\RedPill\src\main\resources\shaders" />
       <recent name="C:\Users\Sherwin\IdeaProjects\RedPill" />
       <recent name="C:\Users\Sherwin\IdeaProjects\RedPill\src\Textures" />
     </key>
@@ -144,10 +148,15 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="466" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1584832946772" />
-    <state x="723" y="146" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584911287136">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="710" y="156" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585405226846">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="723" y="146" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1584911287136" />
+    <state x="710" y="156" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1585405226846" />
+    <state x="304" y="51" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1585405475937">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="304" y="51" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1366.728@0.0.1366.728" timestamp="1585405475937" />
     <state x="765" y="53" key="#com.intellij.ide.util.MemberChooser" timestamp="1584837499988">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -160,26 +169,30 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="370" y="82" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1585081211074" />
-    <state width="597" height="163" key="GridCell.Tab.0.bottom" timestamp="1585081142775">
+    <state width="1325" height="178" key="GridCell.Tab.0.bottom" timestamp="1585405393146">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="597" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585088015994" />
+    <state width="1325" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585405393146" />
+    <state width="1325" height="178" key="GridCell.Tab.0.center" timestamp="1585405393146">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="597" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585088015993" />
+    <state width="1325" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585405393146" />
+    <state width="1325" height="178" key="GridCell.Tab.0.left" timestamp="1585405393146">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="597" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585088015993" />
+    <state width="1325" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585405393146" />
+    <state width="1325" height="178" key="GridCell.Tab.0.right" timestamp="1585405393146">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="597" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585088015994" />
+    <state width="1325" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585405393146" />
+    <state x="121" y="0" key="SettingsEditor" timestamp="1585081547511">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="597" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585081142775" />
-    <state width="597" height="163" key="GridCell.Tab.0.center" timestamp="1585081142775">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="597" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585081142775" />
-    <state width="597" height="163" key="GridCell.Tab.0.left" timestamp="1585081142775">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="597" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585081142775" />
-    <state width="597" height="163" key="GridCell.Tab.0.right" timestamp="1585081142775">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="597" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585081142775" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1585081216904">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1585081216904" />
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1585081547511" />
     <state x="291" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1585072162461">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -188,9 +201,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="618" y="154" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1585010392027" />
-    <state x="623" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1585079900120">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="665" y="1" width="718" height="726" key="search.everywhere.popup" timestamp="1585401640442">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="623" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1585079900120" />
+    <state x="665" y="1" width="718" height="726" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1585401640442" />
   </component>
 </project>
