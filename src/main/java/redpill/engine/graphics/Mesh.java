@@ -2,6 +2,7 @@ package redpill.engine.graphics;
 
 import org.joml.Vector3f;
 import org.lwjgl.system.MemoryUtil;
+import org.w3c.dom.Text;
 
 import java.awt.*;
 import java.nio.FloatBuffer;
@@ -16,12 +17,10 @@ import static org.lwjgl.opengl.GL30.*;
 import static org.lwjgl.system.MemoryUtil.*;
 
 public class Mesh {
-    private static final Vector3f DEFAULT_COLOUR = new Vector3f(1.0f, 1.0f, 1.0f);
     private final int vaoId;
     private final int vertexCount;
     private final List<Integer> vboIdList;
-    private Texture texture;
-    private Vector3f colour;
+    private Material material;
 
     public Mesh(float[] positions,float[] textCoords,float[] normals, int[] indices) {
         FloatBuffer posBuffer = null;
@@ -29,7 +28,6 @@ public class Mesh {
         FloatBuffer vecNormalsBuffer = null;
         IntBuffer indicesBuffer = null;
         try {
-            colour = Mesh.DEFAULT_COLOUR;
             vertexCount = indices.length;
             vboIdList = new ArrayList<>();
 
@@ -95,6 +93,14 @@ public class Mesh {
         }
     }
 
+    public Material getMaterial() {
+        return material;
+    }
+
+    public void setMaterial(Material material) {
+        this.material = material;
+    }
+
     public int getVaoId() {
         return vaoId;
     }
@@ -103,27 +109,9 @@ public class Mesh {
         return vertexCount;
     }
 
-    public Boolean isTextured() {
-        return this.texture != null;
-    }
-
-    public Texture getTexture() {
-        return this.texture;
-    }
-
-    public void setTexture(Texture texture) {
-        this.texture = texture;
-    }
-
-    public Vector3f getColour() {
-        return this.colour;
-    }
-
-    public void setColour(Vector3f colour) {
-        this.colour = colour;
-    }
 
     public void render() {
+        Texture texture = material.getTexture();
         if (texture != null) {
             // Activate first texture bank
             glActiveTexture(GL_TEXTURE0);
@@ -149,6 +137,7 @@ public class Mesh {
         for (int vboId : vboIdList) glDeleteBuffers(vboId);
 
         // Delete the texture
+        Texture texture = material.getTexture();
         if (texture != null) {
             texture.cleanup();
         }

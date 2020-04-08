@@ -83,9 +83,10 @@ public class Window {
         glfwShowWindow(windowHandle);
 
         GL.createCapabilities();
-
+        //glPolygonMode(GL_FRONT_AND_BACK,GL_LINE);
         glClearColor(0.0f,0.0f,0.0f,0.0f);
         glEnable(GL_DEPTH_TEST);
+
     }
 
     public void setClearColor(float r, float g, float b, float alpha) {
