@@ -1,16 +1,17 @@
-package redpill.engine.graphics;
+package redpill.engine.graph;
 
 import org.joml.Vector3f;
 
 public class PointLight {
+
     private Vector3f color;
 
     private Vector3f position;
 
-    protected float intensity;
+    private float intensity;
 
     private Attenuation attenuation;
-
+    
     public PointLight(Vector3f color, Vector3f position, float intensity) {
         attenuation = new Attenuation(1, 0, 0);
         this.color = color;
@@ -24,11 +25,11 @@ public class PointLight {
     }
 
     public PointLight(PointLight pointLight) {
-        this(new Vector3f(pointLight.getColour()), new Vector3f(pointLight.getPosition()),
+        this(new Vector3f(pointLight.getColor()), new Vector3f(pointLight.getPosition()),
                 pointLight.getIntensity(), pointLight.getAttenuation());
     }
 
-    public Vector3f getColour() {
+    public Vector3f getColor() {
         return color;
     }
 
