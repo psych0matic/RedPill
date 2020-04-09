@@ -1,12 +1,15 @@
-package redpill.engine.graphics;
+package redpill.engine.graph;
 
 import org.joml.Vector4f;
 
 public class Material {
-    private static final Vector4f DEFAULT_COLOUR = new Vector4f(1.0f,1.0f,1.0f,1.0f);
+
+    private static final Vector4f DEFAULT_COLOUR = new Vector4f(1.0f, 1.0f, 1.0f, 1.0f);
 
     private Vector4f ambientColour;
+
     private Vector4f diffuseColour;
+
     private Vector4f specularColour;
 
     private float reflectance;
@@ -84,4 +87,5 @@ public class Material {
     public void setTexture(Texture texture) {
         this.texture = texture;
     }
+
 }
