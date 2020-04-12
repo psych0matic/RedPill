@@ -33,6 +33,34 @@ public class Texture {
             height = h.get();
         }
 
+        this.id = createTexture(buf);
+
+        stbi_image_free(buf);
+    }
+
+    public Texture(ByteBuffer imageBuffer) throws Exception {
+        ByteBuffer buf;
+        // Load Texture file
+        try (MemoryStack stack = MemoryStack.stackPush()) {
+            IntBuffer w = stack.mallocInt(1);
+            IntBuffer h = stack.mallocInt(1);
+            IntBuffer channels = stack.mallocInt(1);
+
+            buf = stbi_load_from_memory(imageBuffer, w, h, channels, 4);
+            if (buf == null) {
+                throw new Exception("Image file not loaded: " + stbi_failure_reason());
+            }
+
+            width = w.get();
+            height = h.get();
+        }
+
+        this.id = createTexture(buf);
+
+        stbi_image_free(buf);
+    }
+
+    private int createTexture(ByteBuffer buf) {
         // Create a new OpenGL texture
         int textureId = glGenTextures();
         // Bind the texture
@@ -46,13 +74,11 @@ public class Texture {
 
         // Upload the texture data
         glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, width, height, 0,
-            GL_RGBA, GL_UNSIGNED_BYTE, buf);
+                GL_RGBA, GL_UNSIGNED_BYTE, buf);
         // Generate Mip Map
         glGenerateMipmap(GL_TEXTURE_2D);
 
-        stbi_image_free(buf);
-
-        this.id = textureId;
+        return textureId;
     }
 
     public int getWidth() {

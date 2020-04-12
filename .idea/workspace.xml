@@ -2,71 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9dd0142-91d8-4e3b-a4ba-e412095b0b35" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Textures/grassblock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/redpill/engine/IHud.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/redpill/engine/SceneLight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/redpill/engine/TextItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/redpill/engine/graph/Camera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/redpill/engine/graph/DirectionalLight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/redpill/engine/graph/Material.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/redpill/engine/graph/Mesh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/redpill/engine/graph/OBJLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/redpill/engine/graph/PointLight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/redpill/engine/graph/Renderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/redpill/engine/graph/ShaderProgram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/redpill/engine/graph/SpotLight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/redpill/engine/graph/Texture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/redpill/engine/graph/Transformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/redpill/game/Hud.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/shaders/hud_fragment.fs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/shaders/hud_vertex.vs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/textures/font_texture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Textures/skybox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Textures/skybox_old.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/redpill/engine/Scene.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/redpill/engine/graph/FontTexture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/redpill/engine/graph/SkyBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/models/compass.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/models/skybox.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/shaders/skybox_fragment.fs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/shaders/skybox_vertex.vs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Textures/eddy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Textures/grass.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Textures/stone.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/redpill/engine/Camera.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/redpill/engine/GameEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/redpill/engine/GameEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/redpill/engine/GameItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/redpill/engine/GameItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/redpill/engine/IGameLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/redpill/engine/IGameLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/redpill/engine/MouseInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/redpill/engine/MouseInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/redpill/engine/Timer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/redpill/engine/Timer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/redpill/engine/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/redpill/engine/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/redpill/engine/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/redpill/engine/Window.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/redpill/engine/graphics/Material.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/redpill/engine/graphics/Mesh.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/redpill/engine/graphics/OBJLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/redpill/engine/graphics/PointLight.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/redpill/engine/graphics/ShaderProgram.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/redpill/engine/graphics/Texture.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/redpill/engine/graphics/Transformation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/redpill/game/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/redpill/game/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/redpill/engine/TextItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/redpill/engine/TextItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/redpill/engine/graph/Mesh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/redpill/engine/graph/Mesh.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/redpill/engine/graph/Renderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/redpill/engine/graph/Renderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/redpill/engine/graph/Texture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/redpill/engine/graph/Texture.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/redpill/game/DummyGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/redpill/game/DummyGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/redpill/game/Renderer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/models/cube.obj" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/models/cube.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/shaders/fragment.fs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/shaders/fragment.fs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/shaders/vertex.vs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/shaders/vertex.vs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/models/cube.obj" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/models/cube.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/redpill/engine/Camera.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/redpill/engine/GameEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/redpill/engine/GameEngine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/redpill/engine/GameItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/redpill/engine/GameItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/redpill/engine/MouseInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/redpill/engine/MouseInput.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/redpill/engine/Timer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/redpill/engine/Timer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/redpill/engine/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/redpill/engine/Utils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/redpill/engine/Window.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/redpill/engine/Window.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/redpill/engine/graphics/Mesh.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/redpill/engine/graphics/OBJLoader$Face.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/redpill/engine/graphics/OBJLoader$IdxGroup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/redpill/engine/graphics/OBJLoader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/redpill/engine/graphics/ShaderProgram.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/redpill/engine/graphics/Texture.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/redpill/engine/graphics/Transformation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/redpill/game/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/redpill/game/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/redpill/game/Hud.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/redpill/game/Hud.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/shaders/hud_fragment.fs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/shaders/hud_fragment.fs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/redpill/game/DummyGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/redpill/game/DummyGame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/redpill/game/Renderer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shaders/fragment.fs" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/shaders/fragment.fs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shaders/vertex.vs" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/shaders/vertex.vs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,10 +70,14 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="redpill.engine.graph" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Sherwin\IdeaProjects\RedPill\src\main\resources\shaders" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sherwin\IdeaProjects\RedPill\src\main\resources\models" />
       <recent name="C:\Users\Sherwin\IdeaProjects\RedPill\src\main\resources\shaders" />
       <recent name="C:\Users\Sherwin\IdeaProjects\RedPill" />
       <recent name="C:\Users\Sherwin\IdeaProjects\RedPill\src\Textures" />
@@ -175,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586374241038</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Cloned ch12-p1 because i fucked up the HUD and didnt push my changes">
+      <created>1586467089314</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586467089314</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,7 +148,9 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Added light" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added light" />
+    <MESSAGE value="Cloned ch12-p1 due to error in displaying HUD and because i didn't push my changes" />
+    <MESSAGE value="Cloned ch12-p1 because i fucked up the HUD and didnt push my changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cloned ch12-p1 because i fucked up the HUD and didnt push my changes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="326" y="0" key="#Project_Structure" timestamp="1586465217632">
@@ -214,43 +180,47 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1586457246348" />
-    <state x="300" y="0" key="CommitChangelistDialog2" timestamp="1586374240257">
+    <state x="754" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586566786368">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="300" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586374240257" />
+    <state x="754" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1586566786368" />
+    <state x="300" y="0" key="CommitChangelistDialog2" timestamp="1586467085280">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="300" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586467085280" />
     <state x="370" y="82" key="FileChooserDialogImpl" timestamp="1585081211074">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="370" y="82" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1585081211074" />
-    <state width="1325" height="175" key="GridCell.Tab.0.bottom" timestamp="1586466919914">
+    <state width="639" height="179" key="GridCell.Tab.0.bottom" timestamp="1586648554698">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="597" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585088015994" />
-    <state width="1325" height="175" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586466919914" />
-    <state width="1325" height="175" key="GridCell.Tab.0.center" timestamp="1586466919914">
+    <state width="639" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586648554698" />
+    <state width="639" height="179" key="GridCell.Tab.0.center" timestamp="1586648554698">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="597" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585088015993" />
-    <state width="1325" height="175" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586466919914" />
-    <state width="1325" height="175" key="GridCell.Tab.0.left" timestamp="1586466919914">
+    <state width="639" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586648554698" />
+    <state width="639" height="179" key="GridCell.Tab.0.left" timestamp="1586648554698">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="597" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585088015993" />
-    <state width="1325" height="175" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586466919914" />
-    <state width="1325" height="175" key="GridCell.Tab.0.right" timestamp="1586466919914">
+    <state width="639" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586648554698" />
+    <state width="639" height="179" key="GridCell.Tab.0.right" timestamp="1586648554698">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="597" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585088015994" />
-    <state width="1325" height="175" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586466919914" />
+    <state width="639" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586648554698" />
     <state x="195" y="13" key="SettingsEditor" timestamp="1586444578553">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1585081547511" />
     <state x="195" y="13" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1586444578553" />
-    <state x="275" y="85" key="Vcs.Push.Dialog.v2" timestamp="1586374246074">
+    <state x="275" y="85" key="Vcs.Push.Dialog.v2" timestamp="1586467106257">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1586374246074" />
+    <state x="275" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1586467106257" />
     <state x="291" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1585072162461">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
